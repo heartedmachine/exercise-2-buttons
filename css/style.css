@@ -5,3 +5,13 @@
 /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
 body {
   background-image: url("../images/broken_noise.png"); }
+
+/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+h1 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 45pt;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1.5em;
+  margin-bottom: 0.5rem; }
