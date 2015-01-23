@@ -2,6 +2,11 @@
 
 body {
 	background-image: url("../images/broken_noise.png");
+	text-align: center;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 h1 {
@@ -9,7 +14,63 @@ h1 {
 	font-family: $helvetica-font;
 	font-size: 45pt;
 	font-weight: 400;
-	text-align: center;
 	padding-top: 1.5em;
 	margin-bottom: .5rem;
+}
+
+h3 {
+	font-family: $helvetica-font;
+	font-weight: 200;
+	color: $main-titles;
+
+}
+
+.box1 {
+	@include button( #fff, #468966);
+	transition: $hover-transition;
+	border-radius: 10px 10px 0 0;
+	padding: 7px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: $background-button;
+}
+
+.box2 {
+	@include button( #fff, #FFB03B);
+	transition: $hover-transition;
+	border-radius: 10px 10px 0 0;
+	padding: 7px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: $background-button;
+}
+
+.box3 {
+	@include button( #fff, #B64926);
+	transition: $hover-transition;
+	border-radius: 10px 10px 0 0;
+	padding: 7px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: $background-button;
+}
+
+a {
+	color: $cod-link;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $cod-link-hover;
+}
+
+i {
+	color: $body-text;
+	font-size: 3em;
+	text-align: center;
+}
+
+cite {
+	display: block;
+	margin-top: .5rem;
 }
