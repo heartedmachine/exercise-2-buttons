@@ -1,0 +1,7 @@
+/* This file imports all of your scss partials to be compiled into one style sheet, which you can then attach to your html. */
+/* This file contains all our variables */
+/* This file contains all our mixins */
+/* This is our main file for css/sass */
+/* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+body {
+  background-image: url("../images/broken_noise.png"); }
