@@ -1,0 +1,8 @@
+/* This file imports all of your scss partials to be compiled into one style sheet, which you can then attach to your html. */
+
+// Important variables, mixins and other modules
+@import 'base';
+@import 'mixins';
+
+// Component rules
+@import 'component/main';

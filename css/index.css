@@ -1,0 +1,272 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+body {
+	background-image: url("../images/broken_noise.png");
+}
+
+h1 {
+	color: #fff;
+	font-family: helvetica;
+	font-size: 45pt;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 1.5em;
+	margin-bottom: .5rem;
+}
+
+h3 {
+	font-family: helvetica;
+	font-weight: 200;
+	color: #ccc;
+	text-align: center;
+}
+
+a {
+	color: #0a91ab;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0a7d91;
+}
+
+.box1 {
+	border-radius: 10px 10px 0 0;
+	padding: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: #ccc;
+}
+
+.box2 {
+	border-radius: 10px 10px 0 0;
+	padding: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: #ccc;
+}
+
+.box3 {
+	border-radius: 10px 10px 0 0;
+	padding: 7px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background-color: #ccc;
+}
+
+.box1:hover{
+	background-color: #468966;
+	transition: .25s ease-in-out;
+}
+
+.box2:hover{
+	background-color: #FFB03B;
+	transition: .25s ease-in-out;
+}
+
+.box3:hover{
+	background-color: #B64926;
+	transition: .25s ease-in-out;
+}
+
+i {
+	color: #222;
+	font-size: 3em;
+	text-align: center;
+}
+
+p {
+	margin-top: 1px;
+	font-family: helvetica;
+	font-weight: 100;
+}
+
+cite {
+	display: block;
+	margin-top: .5rem;
+}
+
+/* ------ LILY ------- */
+
+figure.effect-lily figcaption {
+	text-align: left;
+}
+
+figure.effect-lily figcaption > div {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	padding: 2em;
+	width: 30%;
+	height: 50%;
+}
+
+
+figure.effect-lily h2,
+figure.effect-lily p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-lily h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-lily p {
+	color: #222;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover p {
+	opacity: 1;
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover h2,
+figure.effect-lily:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-lily:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
+
+
+
+/* ------ LILA ------- */
+
+
+
+figure.effect-lila figcaption {
+	text-align: left;
+}
+
+figure.effect-lila figcaption > div {
+	position: absolute;
+	bottom: 0;
+	left: 35%;
+	padding: 2em;
+	width: 30%;
+	height: 50%;
+}
+
+figure.effect-lila h2,
+figure.effect-lila p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-lila h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-lila p {
+	color: #222;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lila:hover img,
+figure.effect-lila:hover p {
+	opacity: 1;
+}
+
+figure.effect-lila:hover img,
+figure.effect-lila:hover h2,
+figure.effect-lila:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-lila:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
+
+
+/* ------ LILOU ------- */
+
+
+
+figure.effect-lilou figcaption {
+	text-align: left;
+}
+
+figure.effect-lilou figcaption > div {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	padding: 2em;
+	width: 30%;
+	height: 50%;
+}
+
+figure.effect-lilou h2,
+figure.effect-lilou p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-lilou h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-lilou p {
+	color: #222;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lilou:hover img,
+figure.effect-lilou:hover p {
+	opacity: 1;
+}
+
+figure.effect-lilou:hover img,
+figure.effect-lilou:hover h2,
+figure.effect-lilou:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-lilou:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
