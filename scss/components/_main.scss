@@ -3,3 +3,13 @@
 body {
 	background-image: url("../images/broken_noise.png");
 }
+
+h1 {
+	color: $main-titles;
+	font-family: $helvetica-font;
+	font-size: 45pt;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 1.5em;
+	margin-bottom: .5rem;
+}
