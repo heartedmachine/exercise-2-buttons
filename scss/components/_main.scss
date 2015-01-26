@@ -31,7 +31,7 @@ h3 {
 	transition: $hover-transition;
 	border-radius: $button-radius;
 	padding: $box-padding;
-	margin: 0 auto;
+	margin: $box-margin;
 	text-align: center;
 	background-color: $background-button;
 }
@@ -41,7 +41,7 @@ h3 {
 	transition: $hover-transition;
 	border-radius: $button-radius;
 	padding: $box-padding;
-	margin: 0 auto;
+	margin: $box-margin;
 	text-align: center;
 	background-color: $background-button;
 }
@@ -51,7 +51,7 @@ h3 {
 	transition: $hover-transition;
 	border-radius: $button-radius;
 	padding: $box-padding;
-	margin: 0 auto;
+	margin: $box-margin;
 	text-align: center;
 	background-color: $background-button;
 }
