@@ -29,7 +29,7 @@ h3 {
 .box1 {
 	@include button( #fff, #468966);
 	transition: $hover-transition;
-	border-radius: 10px 10px 0 0;
+	border-radius: $button-radius;
 	padding: 7px;
 	margin: 0 auto;
 	text-align: center;
@@ -39,7 +39,7 @@ h3 {
 .box2 {
 	@include button( #fff, #FFB03B);
 	transition: $hover-transition;
-	border-radius: 10px 10px 0 0;
+	border-radius: $button-radius;
 	padding: 7px;
 	margin: 0 auto;
 	text-align: center;
@@ -49,7 +49,7 @@ h3 {
 .box3 {
 	@include button( #fff, #B64926);
 	transition: $hover-transition;
-	border-radius: 10px 10px 0 0;
+	border-radius: $button-radius;
 	padding: 7px;
 	margin: 0 auto;
 	text-align: center;
@@ -99,15 +99,15 @@ figure.effect-lily p {
 }
 
 figure.effect-lily h2 {
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
+	-webkit-transition: -webkit-transform $transition-duration;
+	transition: transform $transition-duration;
 }
 
 figure.effect-lily p {
 	color: #222;
 	opacity: 0;
-	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
-	transition: opacity 0.2s, transform 0.35s;
+	-webkit-transition: opacity 0.2s, -webkit-transform $transition-duration;
+	transition: opacity 0.2s, transform $transition-duration;
 }
 
 figure.effect-lily:hover img,
@@ -155,15 +155,15 @@ figure.effect-lila p {
 }
 
 figure.effect-lila h2 {
-	-webkit-transition: -webkit-transform $transition-duration:;
-	transition: transform $transition-duration:;
+	-webkit-transition: -webkit-transform $transition-duration;
+	transition: transform $transition-duration;
 }
 
 figure.effect-lila p {
 	color: #222;
 	opacity: 0;
-	-webkit-transition: opacity 0.2s, -webkit-transform $transition-duration:;
-	transition: opacity 0.2s, transform $transition-duration:;
+	-webkit-transition: opacity 0.2s, -webkit-transform $transition-duration;
+	transition: opacity 0.2s, transform $transition-duration;
 }
 
 figure.effect-lila:hover img,
@@ -209,14 +209,14 @@ figure.effect-lilou p {
 
 figure.effect-lilou h2 {
 	-webkit-transition: -webkit-transform $transition-duration;
-	transition: transform $transition-duration:;
+	transition: transform $transition-duration;
 }
 
 figure.effect-lilou p {
 	color: #222;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform $transition-duration;
-	transition: opacity 0.2s, transform $transition-duration:;
+	transition: opacity 0.2s, transform $transition-duration;
 }
 
 figure.effect-lilou:hover img,
