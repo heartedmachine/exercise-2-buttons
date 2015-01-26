@@ -121,10 +121,8 @@ figure.effect-lily:hover p {
 }
 
 figure.effect-lily:hover p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
-	transition-duration: 0.35s;
+	transition-delay: $transition-delay;
+	transition-duration: $transition-duration;
 }
 
 /* ------ LILA (BOX2) ------- */
@@ -173,10 +171,8 @@ figure.effect-lila:hover p {
 }
 
 figure.effect-lila:hover p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
-	transition-duration: 0.35s;
+	transition-delay: $transition-delay;
+	transition-duration: $transition-duration;
 }
 
 
@@ -228,8 +224,6 @@ figure.effect-lilou:hover p {
 }
 
 figure.effect-lilou:hover p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
-	transition-duration: 0.35s;
+	transition-delay: $transition-delay;
+	transition-duration: $transition-duration;
 }
