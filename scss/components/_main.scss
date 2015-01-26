@@ -30,7 +30,7 @@ h3 {
 	@include button( #fff, #468966);
 	transition: $hover-transition;
 	border-radius: $button-radius;
-	padding: 7px;
+	padding: $box-padding;
 	margin: 0 auto;
 	text-align: center;
 	background-color: $background-button;
@@ -40,7 +40,7 @@ h3 {
 	@include button( #fff, #FFB03B);
 	transition: $hover-transition;
 	border-radius: $button-radius;
-	padding: 7px;
+	padding: $box-padding;
 	margin: 0 auto;
 	text-align: center;
 	background-color: $background-button;
@@ -50,7 +50,7 @@ h3 {
 	@include button( #fff, #B64926);
 	transition: $hover-transition;
 	border-radius: $button-radius;
-	padding: 7px;
+	padding: $box-padding;
 	margin: 0 auto;
 	text-align: center;
 	background-color: $background-button;
