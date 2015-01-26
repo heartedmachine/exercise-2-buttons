@@ -102,7 +102,7 @@ figure.effect-lily h2 {
 }
 
 figure.effect-lily p {
-	color: #222;
+	color: $body-text;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
@@ -154,7 +154,7 @@ figure.effect-lila h2 {
 }
 
 figure.effect-lila p {
-	color: #222;
+	color: $body-text;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
@@ -209,7 +209,7 @@ figure.effect-lilou h2 {
 }
 
 figure.effect-lilou p {
-	color: #222;
+	color: $body-text;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
