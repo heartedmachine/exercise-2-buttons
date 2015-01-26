@@ -3,6 +3,7 @@
 body {
 	background-image: url("../images/broken_noise.png");
 	text-align: center;
+	font-family: $helvetica-font;
 }
 
 *, *:before, *:after {
@@ -75,7 +76,7 @@ cite {
 	margin-top: .5rem;
 }
 
-/* ------ LILY (BOX1) ------- */
+/* ------ LILY ------- */
 
 figure.effect-lily figcaption {
 	text-align: left;
@@ -86,9 +87,10 @@ figure.effect-lily figcaption > div {
 	bottom: 0;
 	left: 10px;
 	padding: 2em;
-	width: $button-size;
+	width: 25%;
 	height: 50%;
 }
+
 
 figure.effect-lily h2,
 figure.effect-lily p {
@@ -102,7 +104,7 @@ figure.effect-lily h2 {
 }
 
 figure.effect-lily p {
-	color: $body-text;
+	color: #222;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
@@ -121,11 +123,17 @@ figure.effect-lily:hover p {
 }
 
 figure.effect-lily:hover p {
-	transition-delay: $transition-delay;
-	transition-duration: $transition-duration;
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
 }
 
-/* ------ LILA (BOX2) ------- */
+
+
+/* ------ LILA ------- */
+
+
 
 figure.effect-lila figcaption {
 	text-align: left;
@@ -136,7 +144,7 @@ figure.effect-lila figcaption > div {
 	bottom: 0;
 	left: 35%;
 	padding: 2em;
-	width: $button-size;
+	width: 25%;
 	height: 50%;
 }
 
@@ -152,7 +160,7 @@ figure.effect-lila h2 {
 }
 
 figure.effect-lila p {
-	color: $body-text;
+	color: #222;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
@@ -171,14 +179,14 @@ figure.effect-lila:hover p {
 }
 
 figure.effect-lila:hover p {
-	transition-delay: $transition-delay;
-	transition-duration: $transition-duration;
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
 }
 
 
-/* ------ LILOU (BOX3) ------- */
-
-
+/* ------ LILOU ------- */
 
 figure.effect-lilou figcaption {
 	text-align: left;
@@ -189,7 +197,7 @@ figure.effect-lilou figcaption > div {
 	bottom: 0;
 	right: 10px;
 	padding: 2em;
-	width: $button-size;
+	width: 25%;
 	height: 50%;
 }
 
@@ -205,7 +213,7 @@ figure.effect-lilou h2 {
 }
 
 figure.effect-lilou p {
-	color: $body-text;
+	color: #222;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
@@ -224,6 +232,8 @@ figure.effect-lilou:hover p {
 }
 
 figure.effect-lilou:hover p {
-	transition-delay: $transition-delay;
-	transition-duration: $transition-duration;
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
 }
