@@ -4,14 +4,219 @@
 /* This is our main file for css/sass */
 /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
 body {
-  background-image: url("../images/broken_noise.png"); }
+  background-image: url("../images/broken_noise.png");
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif; }
 
-/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+/* line 9, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 13, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
 h1 {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 45pt;
   font-weight: 400;
-  text-align: center;
   padding-top: 1.5em;
   margin-bottom: 0.5rem; }
+
+/* line 22, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  color: #fff; }
+
+/* line 29, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+.box1 {
+  color: #fff;
+  transition: 0.25s ease-in-out;
+  border-radius: 10px 10px 0 0;
+  padding: 7px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ccc; }
+  /* line 5, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/mixins */
+  .box1:hover {
+    background-color: #468966; }
+
+/* line 39, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+.box2 {
+  color: #fff;
+  transition: 0.25s ease-in-out;
+  border-radius: 10px 10px 0 0;
+  padding: 7px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ccc; }
+  /* line 5, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/mixins */
+  .box2:hover {
+    background-color: #FFB03B; }
+
+/* line 49, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+.box3 {
+  color: #fff;
+  transition: 0.25s ease-in-out;
+  border-radius: 10px 10px 0 0;
+  padding: 7px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ccc; }
+  /* line 5, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/mixins */
+  .box3:hover {
+    background-color: #B64926; }
+
+/* line 59, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+a {
+  color: #0a91ab;
+  text-decoration: none; }
+
+/* line 64, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+a:hover {
+  color: #0a7d91; }
+
+/* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+i {
+  color: #222;
+  font-size: 3em;
+  text-align: center; }
+
+/* line 74, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+cite {
+  display: block;
+  margin-top: 0.5rem; }
+
+/* ------ LILY ------- */
+/* line 81, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily figcaption {
+  text-align: left; }
+
+/* line 85, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily figcaption > div {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  padding: 2em;
+  width: 25%;
+  height: 50%; }
+
+/* line 96, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily h2, figure.effect-lily p {
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0); }
+
+/* line 101, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily h2 {
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+
+/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily p {
+  color: #222;
+  opacity: 0;
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s; }
+
+/* line 114, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily:hover img, figure.effect-lily:hover p {
+  opacity: 1; }
+
+/* line 120, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily:hover img, figure.effect-lily:hover h2, figure.effect-lily:hover p {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+/* line 125, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lily:hover p {
+  transition-delay: 0.05s;
+  transition-duration: 0.35s; }
+
+/* ------ LILA ------- */
+/* line 138, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila figcaption {
+  text-align: left; }
+
+/* line 142, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila figcaption > div {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  padding: 2em;
+  width: 25%;
+  height: 50%; }
+
+/* line 152, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila h2, figure.effect-lila p {
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0); }
+
+/* line 157, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila h2 {
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+
+/* line 162, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila p {
+  color: #222;
+  opacity: 0;
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s; }
+
+/* line 170, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila:hover img, figure.effect-lila:hover p {
+  opacity: 1; }
+
+/* line 176, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila:hover img, figure.effect-lila:hover h2, figure.effect-lila:hover p {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+/* line 181, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lila:hover p {
+  transition-delay: 0.05s;
+  transition-duration: 0.35s; }
+
+/* ------ LILOU ------- */
+/* line 191, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou figcaption {
+  text-align: left; }
+
+/* line 195, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou figcaption > div {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  padding: 2em;
+  width: 25%;
+  height: 50%; }
+
+/* line 205, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou h2, figure.effect-lilou p {
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0); }
+
+/* line 210, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou h2 {
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+
+/* line 215, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou p {
+  color: #222;
+  opacity: 0;
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s; }
+
+/* line 223, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou:hover img, figure.effect-lilou:hover p {
+  opacity: 1; }
+
+/* line 229, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou:hover img, figure.effect-lilou:hover h2, figure.effect-lilou:hover p {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+/* line 234, /Users/scribble-lies/Documents/Graphic Design VI/Web Development/Week 3/exercise-2-buttons/scss/components/main */
+figure.effect-lilou:hover p {
+  transition-delay: 0.05s;
+  transition-duration: 0.35s; }
