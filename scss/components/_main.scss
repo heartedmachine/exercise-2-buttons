@@ -123,10 +123,10 @@ figure.effect-lily:hover p {
 }
 
 figure.effect-lily:hover p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
-	transition-duration: 0.35s;
+	-webkit-transition-delay: $transition-delay;
+	transition-delay: $transition-delay;
+	-webkit-transition-duration: $transition-duration;
+	transition-duration: $transition-duration;
 }
 
 
@@ -179,10 +179,10 @@ figure.effect-lila:hover p {
 }
 
 figure.effect-lila:hover p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
-	transition-duration: 0.35s;
+	-webkit-transition-delay: $transition-delay;
+	transition-delay: $transition-delay;
+	-webkit-transition-duration: $transition-duration;
+	transition-duration: $transition-duration;
 }
 
 
@@ -232,8 +232,8 @@ figure.effect-lilou:hover p {
 }
 
 figure.effect-lilou:hover p {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-	-webkit-transition-duration: 0.35s;
-	transition-duration: 0.35s;
+	-webkit-transition-delay: $transition-delay;
+	transition-delay: $transition-delay;
+	-webkit-transition-duration: $transition-duration;
+	transition-duration: $transition-duration;
 }
